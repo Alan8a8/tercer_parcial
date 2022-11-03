@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(41, 73, 122);
+}
+
+.contGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contGrid > .producto{
+    width: 300px;
+    height: 600px;
+    border: solid 2px rgb(202, 178, 178);
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contGrid > .producto > .imgCont{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: solid 2px rgb(245, 193, 193);
+
+}
+
+.contGrid > .producto > .imgCont > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.contGrid > .producto > .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    
+
+}
+
+.contGrid > .producto > .contenido > h2{
+    font-size: 22pt;
+}
+
+.contGrid > .producto > .contenido > p{
+    font-size: 18pt;
+}
+
+.contGrid > .producto > .contenido > button, .carrito > .comprarTodo{
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 5px;
+    background: none;
+    border: solid 2px rgba(160, 24, 6, 0.781);
+    
+}
+
+.carrito{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+table{
+    outline: solid 2px rgb(243, 240, 240);
+}
+
+table tr td .tt{
+    width: 140px;
+    text-align: center;
+}
+
+#principal_h1 {
+    font-size: 2rem;
+    color: rgb(155, 6, 36);
+    text-align: center;
+  
+}

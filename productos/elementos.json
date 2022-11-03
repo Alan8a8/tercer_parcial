@@ -1,0 +1,60 @@
+[
+ {
+   "nombre": " KIT ARDUINO MEGA",
+   "precio": 300,
+   "img": "./imgs/mega.jpg"
+
+ },
+
+ {
+    "nombre": "KIT PIC 18F4550",
+    "precio": 380,
+    "img": "./imgs/pic.jpeg"
+ 
+  },
+
+  {
+    "nombre": "KIT RASPBERRY PI",
+    "precio": 580,
+    "img": "./imgs/pi.jpg"
+ 
+  },
+
+  {
+    "nombre": "KIT MCU ESP32",
+    "precio": 350,
+    "img": "./imgs/esp.jpg"
+ 
+  },
+  
+  {
+    "nombre": "KIT FPGA Cyclone II",
+    "precio": 600,
+    "img": "./imgs/fpga.jpg"
+ 
+  },
+
+  {
+    "nombre": "KIT Banana PI",
+    "precio": 450,
+    "img": "./imgs/banana.jpg"
+ 
+  },
+
+  {
+    "nombre": "KIT Orange PI",
+    "precio": 450,
+    "img": "./imgs/orange.jpg"
+ 
+  },
+
+  {
+    "nombre": "KIT STM 32",
+    "precio": 350,
+    "img": "./imgs/stm.jpg"
+ 
+  }
+ 
+ 
+
+]
